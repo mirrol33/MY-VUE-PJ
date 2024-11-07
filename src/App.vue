@@ -1,28 +1,14 @@
-<script setup>
-import { ref, computed } from 'vue'
-import Home from './Home.vue'
-import About from './About.vue'
-import NotFound from './NotFound.vue'
-
-const routes = {
-  '/': Home,
-  '/about': About
-}
-
-const currentPath = ref(window.location.hash)
-
-window.addEventListener('hashchange', () => {
-  currentPath.value = window.location.hash
-})
-
-const currentView = computed(() => {
-  return routes[currentPath.value.slice(1) || '/'] || NotFound
-})
-</script>
-
+<!-- src/App.vue -->
 <template>
-  <a href="#/">Home</a> |
-  <a href="#/about">About</a> |
-  <a href="#/non-existent-path">잘못된 링크</a>
-  <component :is="currentView" />
+  <div>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/non-existent-path">잘못된 링크</router-link>
+    </nav>
+    <router-view />
+  </div>
 </template>
+
+<script setup>
+</script>
