@@ -4,6 +4,6 @@ const { defineConfig } = require('@vue/cli-service')
 // })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/myvue-01/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/My-Vue-Study/" : "/",
   outputDir: "docs",
 };

@@ -11,7 +11,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/myvue-01/'),
+  history: createWebHistory('/My-Vue-Study/'),
   routes
 })
 
