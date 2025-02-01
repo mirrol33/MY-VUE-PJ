@@ -1,0 +1,24 @@
+header {
+  box-sizing: border-box;
+  outline: 1px solid red;
+  .header {
+    position: relative;
+  }
+}
+section {
+  box-sizing: border-box;
+  outline: 1px solid yellow;
+  min-height: 200vh;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #0e0e0e;
+  .inner {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 90%;
+    color: #fff;
+  }
+}
