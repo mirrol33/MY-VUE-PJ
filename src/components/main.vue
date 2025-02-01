@@ -21,6 +21,15 @@
     <section class="section-2">
       <div class="inner"></div>
     </section>
+    <section class="section-3">
+      <div class="inner"></div>
+    </section>
+    <section class="section-4">
+      <div class="inner"></div>
+    </section>
+    <section class="section-5">
+      <div class="inner"></div>
+    </section>
   </div>
 </template>
 

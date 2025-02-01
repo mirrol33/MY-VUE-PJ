@@ -1,14 +1,16 @@
 header {
-  box-sizing: border-box;
-  outline: 1px solid red;
   .header {
-    position: relative;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 5%;
+    display: none;
   }
 }
 section {
   box-sizing: border-box;
   outline: 1px solid yellow;
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 footer {
