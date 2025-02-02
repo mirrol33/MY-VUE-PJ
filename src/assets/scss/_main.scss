@@ -31,6 +31,12 @@
       border: 1px solid #b09382;
       border-top: none;
       border-left: none;
+      &:nth-child(3n) {
+        border-right: none;
+      }
+      &:nth-last-child(-n+3) {
+        border-bottom: none;
+      }
       span {
         width: 100%;
         height: 100%;
@@ -82,7 +88,7 @@
       top: 55vh;
       width: 25%;
       height: 55vh;
-      margin-top: 100vh;
+      margin-top: 120vh;
       margin-left: -5%;
       background: #efece6;
       float: left;

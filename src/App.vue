@@ -14,7 +14,8 @@
     </main>
     <footer>
       <div class="inner">
-        <p>2025 FREELIFE11</p>
+        <p>@2025 All Rights Reserved.</p>
+        <p>freelife11@nate.com</p>
       </div>
     </footer>
   </div>

@@ -9,21 +9,7 @@
       </div>
       <div class="main-visual">
         <div class="grid">
-          <div class="box n1"><span></span></div>
-          <div class="box n2"><span></span></div>
-          <div class="box n3"><span></span></div>
-          <div class="box n4"><span></span></div>
-          <div class="box n5"><span></span></div>
-          <div class="box n1"><span></span></div>
-          <div class="box n2"><span></span></div>
-          <div class="box n3"><span></span></div>
-          <div class="box n4"><span></span></div>
-          <div class="box n5"><span></span></div>
-          <div class="box n1"><span></span></div>
-          <div class="box n2"><span></span></div>
-          <div class="box n3"><span></span></div>
-          <div class="box n4"><span></span></div>
-          <div class="box n5"><span></span></div>
+          <div v-for="n in 15" :key="n" class="box" :class="'n' + n"><span></span></div>
         </div>
       </div>
     </section>

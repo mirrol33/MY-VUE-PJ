@@ -20,5 +20,10 @@ footer {
     padding: 40px 0;
     width: 90%;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
 }
