@@ -16,7 +16,7 @@
     <section class="section-1">
       <div class="inner">
         <div class="intro-01">
-          <p>Introducing the first-ever web design asset collection curated in the Pantone Color of the Year 2025. Predesigned yet fully customizable, this limited edition capsule gets you ahead of trends the rest of the world is only waking up to.</p>
+          <p>I am a Web Front-end Developer who completes user-centered Web Design based on various experiences.</p>
         </div>
         <div class="intro-02">
           <h2>어쩌구 저쩌구구</h2>

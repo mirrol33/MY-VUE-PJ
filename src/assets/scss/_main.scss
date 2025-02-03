@@ -82,10 +82,13 @@
       float: left;
       padding: 60px;
       box-sizing: border-box;
+      font-size: min(4vw, 4rem);
+      line-height: 1;
+      color: #533527;
     }
     .intro-02 {
       position: sticky;
-      top: 55vh;
+      top: calc(55vh - 2px);
       width: 25%;
       height: 55vh;
       margin-top: 120vh;

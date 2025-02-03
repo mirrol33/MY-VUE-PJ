@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+/* input 태그 자동완성시 배경색 삭제 */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000;
+  box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000;
+  box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:autofill,
+input:autofill:hover,
+input:autofill:focus,
+input:autofill:active {
+  -webkit-text-fill-color: #000;
+  box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+header .header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 5%;
+  display: none;
+}
+
+section {
+  min-height: 100vh;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #0e0e0e;
+}
+footer .inner {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 90%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.section-0 .video-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+.section-0 .video-area video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-0 .grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  display: grid;
+  grid-template-rows: 10vh 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5% 90% 5%;
+}
+.section-0 .grid .box {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #b09382;
+  border-top: none;
+  border-left: none;
+}
+.section-0 .grid .box:nth-child(3n) {
+  border-right: none;
+}
+.section-0 .grid .box:nth-last-child(-n+3) {
+  border-bottom: none;
+}
+.section-0 .grid .box span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #a67763;
+  overflow: hidden;
+  transform: scaleY(0%);
+}
+
+@keyframes grid-ani {
+  0% {
+    transform-origin: bottom;
+    transform: scaleY(0%);
+  }
+  25% {
+    transform-origin: bottom;
+    transform: scaleY(100%);
+  }
+  50% {
+    transform-origin: top;
+    transform: scaleY(100%);
+  }
+  100% {
+    transform-origin: top;
+    transform: scaleY(0%);
+  }
+}
+.section-1 .inner {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 200vh;
+}
+.section-1 .inner .intro-01 {
+  position: sticky;
+  top: 10vh;
+  width: 80%;
+  height: 100vh;
+  background: #d6cfc4;
+  float: left;
+  padding: 60px;
+  box-sizing: border-box;
+  font-size: min(4vw, 4rem);
+  line-height: 1;
+  color: #533527;
+}
+.section-1 .inner .intro-02 {
+  position: sticky;
+  top: calc(55vh - 2px);
+  width: 25%;
+  height: 55vh;
+  margin-top: 120vh;
+  margin-left: -5%;
+  background: #efece6;
+  float: left;
+  padding: 60px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.section-2 {
+  background: #f7f5f1;
+}
+
+.section-3 {
+  background: #5c4439;
+}
+
+.section-4 {
+  background: #f8f6f2;
+}
+
+.section-5 {
+  background: #a47864;
+}
+
+html, body {
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=common.css.map */
