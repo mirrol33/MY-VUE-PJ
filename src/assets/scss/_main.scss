@@ -1,4 +1,4 @@
-.section-0 {
+.main-visual {
   .video-area {
     position: fixed;
     top: 0;
@@ -34,7 +34,7 @@
       &:nth-child(3n) {
         border-right: none;
       }
-      &:nth-last-child(-n+3) {
+      &:nth-last-child(-n + 3) {
         border-bottom: none;
       }
       span {
@@ -67,7 +67,7 @@
     transform: scaleY(0%);
   }
 }
-.section-1 {
+.intro-info {
   .inner {
     position: relative;
     margin: 0 auto;
@@ -102,18 +102,50 @@
   }
 }
 
-.section-2 {
+.work-history {
   background: #f7f5f1;
+  .list {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      transition: 0.5s ease-in-out;
+      flex: 1;
+      height: 60%;
+      border: 1px solid transparent;
+      border-left: none;
+      border-image: linear-gradient(to bottom, #C3A08F 0%, transparent 100%);
+      border-image-slice: 1;
+    }
+    li:hover {
+      flex: 3;
+    }
+  }
 }
 
-.section-3 {
+.portfolio-site {
   background: #5c4439;
+  ul{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    li.box {
+      min-height: 100px;
+      outline: 1px solid gray;
+    }
+  }
 }
 
-.section-4 {
+.portfolio-design {
   background: #f8f6f2;
 }
 
-.section-5 {
+.edu-history {
   background: #a47864;
+}
+
+.main-skills {
+  background: #5c4439;
 }
