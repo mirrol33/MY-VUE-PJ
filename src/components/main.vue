@@ -28,37 +28,52 @@
             <li>
               <div class="data">2022.5-2023.11 (1년5개월)</div>
               <div class="name">(주)팀스완</div>
-              <div class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</div>
-              <div class="job">주요직무 : 웹퍼블리셔</div>
-              <div class="area">근무지역 : 서울</div>
+              <div class="details">
+                <p class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</p>
+                <p class="job">주요직무 : 웹퍼블리셔</p>
+                <p class="area">근무지역 : 서울</p>
+                <p class="reason">퇴사사유 : 경영악화</p>
+              </div>
             </li>
             <li>
               <div class="data">2022.5-2023.11 (1년5개월)</div>
               <div class="name">(주)팀스완</div>
-              <div class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</div>
-              <div class="job">주요직무 : 웹퍼블리셔</div>
-              <div class="area">근무지역 : 서울</div>
+              <div class="details">
+                <p class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</p>
+                <p class="job">주요직무 : 웹퍼블리셔</p>
+                <p class="area">근무지역 : 서울</p>
+                <p class="reason">퇴사사유 : 경영악화</p>
+              </div>
             </li>
             <li>
               <div class="data">2022.5-2023.11 (1년5개월)</div>
               <div class="name">(주)팀스완</div>
-              <div class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</div>
-              <div class="job">주요직무 : 웹퍼블리셔</div>
-              <div class="area">근무지역 : 서울</div>
+              <div class="details">
+                <p class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</p>
+                <p class="job">주요직무 : 웹퍼블리셔</p>
+                <p class="area">근무지역 : 서울</p>
+                <p class="reason">퇴사사유 : 경영악화</p>
+              </div>
             </li>
             <li>
               <div class="data">2022.5-2023.11 (1년5개월)</div>
               <div class="name">(주)팀스완</div>
-              <div class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</div>
-              <div class="job">주요직무 : 웹퍼블리셔</div>
-              <div class="area">근무지역 : 서울</div>
+              <div class="details">
+                <p class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</p>
+                <p class="job">주요직무 : 웹퍼블리셔</p>
+                <p class="area">근무지역 : 서울</p>
+                <p class="reason">퇴사사유 : 경영악화</p>
+              </div>
             </li>
             <li>
               <div class="data">2022.5-2023.11 (1년5개월)</div>
               <div class="name">(주)팀스완</div>
-              <div class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</div>
-              <div class="job">주요직무 : 웹퍼블리셔</div>
-              <div class="area">근무지역 : 서울</div>
+              <div class="details">
+                <p class="content">카페24 스마트스토어, 아임웹, 워드프레스, 그누보드를 사용한 웹사이트 제작 퍼블리싱</p>
+                <p class="job">주요직무 : 웹퍼블리셔</p>
+                <p class="area">근무지역 : 서울</p>
+                <p class="reason">퇴사사유 : 경영악화</p>
+              </div>
             </li>
           </ul>
         </div>
