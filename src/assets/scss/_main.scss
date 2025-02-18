@@ -31,8 +31,10 @@
       border: 1px solid #b09382;
       border-top: none;
       border-left: none;
-      color: #fff;
-      font-size: min(12vw, 12rem);
+      color: #F8F6F2;
+      font-size: min(8vw, 8rem);
+      font-weight: 300;
+      text-transform: uppercase;
       &:nth-child(3n) {
         border-right: none;
       }
@@ -95,9 +97,9 @@
       height: 100vh;
       background: #d6cfc4;
       float: left;
-      padding: 60px;
+      padding: 6vw;
       box-sizing: border-box;
-      font-size: min(4vw, 4rem);
+      font-size: min(3vw, 4rem);
       line-height: 1.28;
       color: #533527;
       b {
