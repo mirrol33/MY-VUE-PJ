@@ -30,7 +30,9 @@
       box-sizing: border-box;
       border: 1px solid #b09382;
       border-top: none;
-      border-left: none;     
+      border-left: none;
+      color: #fff;
+      font-size: min(12vw, 12rem);
       &:nth-child(3n) {
         border-right: none;
       }
@@ -45,6 +47,19 @@
         overflow: hidden;
         transform: scaleY(0%);
         // animation: grid-ani 3s ease-out infinite;
+      }
+      &.n5::before {
+        content: "Web Design and";
+      }
+      &.n8::before {
+        content: "Front-End Develop";
+      }
+      &.n11::before {
+        content: "OF THE YEAR";
+      }
+      &.n14::before {
+        content: "2025";
+        float: right;
       }
     }
   }
@@ -83,8 +98,11 @@
       padding: 60px;
       box-sizing: border-box;
       font-size: min(4vw, 4rem);
-      line-height: 1;
+      line-height: 1.28;
       color: #533527;
+      b {
+        font-weight: 700;
+      }
     }
     .intro-02 {
       position: sticky;
