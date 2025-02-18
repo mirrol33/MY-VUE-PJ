@@ -51,7 +51,7 @@
         // animation: grid-ani 3s ease-out infinite;
       }
       &.n5::before {
-        content: "Web Design and";
+        content: "Web Design";
       }
       &.n8::before {
         content: "Front-End Develop";
@@ -97,7 +97,7 @@
       height: 100vh;
       background: #d6cfc4;
       float: left;
-      padding: 6vw;
+      padding: 5vw 6vw;
       box-sizing: border-box;
       font-size: min(3vw, 4rem);
       line-height: 1.28;
