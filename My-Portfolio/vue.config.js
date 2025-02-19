@@ -11,6 +11,6 @@
 // })
 
 module.exports = {
-  publicPath: '/MY-VUE-PJ/my-portfolio/',  // GitHub Pages 경로에 맞게 수정
+  publicPath: '/MY-VUE-PJ/',  // GitHub Pages 경로에 맞게 수정
   transpileDependencies: true
 }
