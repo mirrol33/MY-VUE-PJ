@@ -11,7 +11,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/MY-VUE-PJ/My-Portfolio/'),
+  history: createWebHistory('/MY-VUE-PJ/my-portfolio/'),
   routes
 })
 
