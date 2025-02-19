@@ -3,7 +3,7 @@ const webpack = require("webpack");
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/My-Vue-Study/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/MY-VUE-PJ/" : "/",
   outputDir: "docs",
   configureWebpack: {
     plugins: [
