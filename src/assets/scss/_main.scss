@@ -25,6 +25,7 @@
     grid-template-rows: 10vh 1fr 1fr 1fr 1fr;
     grid-template-columns: 5% 90% 5%;
     .box {
+      position: relative;
       width: 100%;
       height: 100%;
       box-sizing: border-box;
@@ -41,6 +42,14 @@
       &:nth-last-child(-n + 3) {
         border-bottom: none;
       }
+      p {
+        position: absolute;
+        bottom: 0;
+        line-height: 0.7;
+      }
+      &.n14 p {
+        right: 0;
+      }
       span {
         width: 100%;
         height: 100%;
@@ -50,19 +59,7 @@
         transform: scaleY(0%);
         // animation: grid-ani 3s ease-out infinite;
       }
-      &.n5::before {
-        content: "Web Design";
-      }
-      &.n8::before {
-        content: "Front-End Develop";
-      }
-      &.n11::before {
-        content: "OF THE YEAR";
-      }
-      &.n14::before {
-        content: "2025";
-        float: right;
-      }
+
     }
   }
 }
